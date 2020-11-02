@@ -40,7 +40,10 @@ footer,
 footer .fp-slide,
 footer .fp-tableCell
 {
-    height: auto !important;
+    /* height: auto !important; */
+		height: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
 }
 
 /* end all section */
