@@ -43,7 +43,7 @@ footer .fp-tableCell
     /* height: auto !important; */
 		height: auto;
 		overflow-x: hidden;
-		overflow-y: hidden;
+		overflow-y: hidden; /* Change here */
 }
 
 /* end all section */
