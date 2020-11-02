@@ -3,7 +3,7 @@
 Lavish HTML CSS Template
 
 https://templatemo.com/tm-458-lavish
-		
+
 */
 
 body
@@ -40,7 +40,13 @@ footer,
 footer .fp-slide,
 footer .fp-tableCell
 {
-    height: auto !important;
+    height: auto;
+
+		overflow-y: hidden;
+		overflow-x: hidden;
+		/* min-height: 100px;
+		overflow-x: hidden;
+		overflow-y: hidden; */
 }
 
 /* end all section */
@@ -127,7 +133,7 @@ h1,h2,h3,h4,h5
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -168,7 +174,7 @@ h1,h2,h3,h4,h5
 }
 /* end simpletextrotator */
 
-/* start home */       
+/* start home */
 #home
 	{
         background: url('../images/home-bg.jpg');
@@ -176,6 +182,7 @@ h1,h2,h3,h4,h5
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
+				height: 100px; /*Again changes here */
         text-align: center;
 	}
 #home h1
@@ -225,7 +232,7 @@ h1,h2,h3,h4,h5
     {
       margin-top: 30px;
     }
-	
+
 #work .media .fa
     {
         border: 2px solid #ffffff;
@@ -331,7 +338,7 @@ h1,h2,h3,h4,h5
     {
       padding-bottom: 18px;
     }
-	
+
 #contact .contact-title
     {
 		font-size: 24px;
