@@ -40,13 +40,7 @@ footer,
 footer .fp-slide,
 footer .fp-tableCell
 {
-    height: auto;
-
-		overflow-y: hidden;
-		overflow-x: hidden;
-		/* min-height: 100px;
-		overflow-x: hidden;
-		overflow-y: hidden; */
+    height: auto !important;
 }
 
 /* end all section */
@@ -182,7 +176,6 @@ h1,h2,h3,h4,h5
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
-				height: 100px; /*Again changes here */
         text-align: center;
 	}
 #home h1
