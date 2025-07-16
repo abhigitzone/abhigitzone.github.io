@@ -1,0 +1,10 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient-favicon" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="22" fill="url(#logo-gradient-favicon)"/>
+  <text x="50%" y="58%" text-anchor="middle" fill="white" font-size="24" font-family="'Segoe UI', 'Arial', sans-serif" font-weight="bold" dominant-baseline="middle">B</text>
+</svg> 
